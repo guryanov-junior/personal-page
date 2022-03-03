@@ -74,6 +74,11 @@ body {
   gap: 1.4rem;
 }
 
+.links form {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
 .links button {
   width: 4rem;
   height: 4rem;
