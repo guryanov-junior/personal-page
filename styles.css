@@ -98,7 +98,7 @@ body {
 footer {
   display: flex;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1rem;
   color: #2eb086;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -111,4 +111,86 @@ footer a {
 footer span,
 .fullname {
   color: #eee6ce;
+}
+
+.references {
+  display: flex;
+  gap: 1rem;
+}
+
+/* //////////////////////////////////////// */
+
+@media screen and (max-width: 1314px) {
+  .reading img {
+    bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 1108px) {
+  .selfie img {
+    top: 35%;
+  }
+}
+
+@media screen and (max-width: 829px) {
+  .reading img {
+    width: 40%;
+    right: 0;
+  }
+
+  .selfie img {
+    left: 0;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  .selfie img {
+    top: 0;
+    left: 0;
+  }
+
+  .main {
+    margin-top: 25%;
+  }
+
+  .goals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 531px) {
+  .selfie img {
+    width: 50%;
+  }
+
+  .main {
+    margin-top: 40%;
+  }
+
+  .reading img {
+    width: 50%;
+    right: 0;
+    bottom: 5%;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+    margin-top: 25%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .main {
+    font-size: 1.3rem;
+  }
+
+  .reading img {
+    bottom: 10%;
+  }
 }
