@@ -1,0 +1,114 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #313552;
+  position: relative;
+}
+
+.reading img {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  width: 30%;
+  height: auto;
+}
+
+.selfie img {
+  position: absolute;
+  left: 5%;
+  top: 0;
+  width: 35%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1400px;
+  height: 98vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.6rem;
+  margin-top: 5%;
+  color: #b8405e;
+}
+
+.greeting {
+  font-size: 1.8rem;
+}
+
+.name {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #eee6ce;
+}
+
+.occupation {
+  margin-top: 1%;
+  color: #2eb086;
+}
+
+.selection {
+  color: #eee6ce;
+}
+
+.goals {
+  color: #b8405e;
+  margin-top: 8%;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1.4rem;
+}
+
+.links button {
+  width: 4rem;
+  height: 4rem;
+  background-color: #313552;
+  border-radius: 50%;
+  box-shadow: 8px 8px 8px #23263a, -4px -4px 8px #474c70;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: box-shadow 0.1s ease-in;
+}
+
+.links button:active {
+  box-shadow: none;
+}
+
+.links img {
+  width: 2.6rem;
+  height: 2.6rem;
+  background-color: #b8405e;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #2eb086;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: #b8405e;
+}
+
+footer span,
+.fullname {
+  color: #eee6ce;
+}
