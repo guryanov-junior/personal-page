@@ -374,6 +374,12 @@ footer .copyright {
   html {
     font-size: 19px;
   }
+  
+  .reading img {
+    width: 11rem;
+    bottom:24vh;
+  }
+  
   .links button {
     width: 3.2rem;
     height: 3.2rem;
