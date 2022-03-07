@@ -377,7 +377,7 @@ footer .copyright {
   
   .reading img {
     width: 11rem;
-    bottom:24vh;
+    bottom:22vh;
   }
   
   .links button {
@@ -631,7 +631,7 @@ footer .copyright {
     width: 7rem;
   }
   .reading img {
-    bottom: 25vh;
+    bottom: 23vh;
     right: 2rem;
     width: 11rem;
   }
@@ -641,7 +641,19 @@ footer .copyright {
   }
   .links {
     margin-top: 0;
+   }
+  
+  .links button {
+    width: 3.5rem;
+    height: 3.5rem;
   }
+  
+  .links button img {
+      
+      width: 2.2rem;
+      height: 2.2rem;
+  }
+  
   .greeting span:nth-child(2) {
     font-size: 1.6em;
   }
