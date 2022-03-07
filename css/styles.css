@@ -157,12 +157,12 @@ h1, h2, h3, h4, h5, h6 {
 /*----------------------*/
 @font-face {
   font-family: 'Fredoka';
-  src: url("../assets/fonts/Fredoka-VariableFont_wdth,wght.ttf");
+  src: url("assets/fonts/Fredoka-VariableFont_wdth,wght.ttf");
 }
 
 @font-face {
   font-family: 'Josefin';
-  src: url("../assets/fonts/JosefinSans-VariableFont_wght.ttf");
+  src: url("assets/fonts/JosefinSans-VariableFont_wght.ttf");
 }
 
 body {
