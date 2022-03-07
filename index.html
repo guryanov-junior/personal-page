@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="This is my personal page" />
+    <meta name="author" content="Ivan Guryanov" />
+    <meta name="copyright" content="Ivan Guryanov" />
+    <meta name="robots" content="index, follow" />
+    <meta content="width" name="MobileOptimized" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
 
     <link
       rel="apple-touch-icon"
@@ -35,97 +41,92 @@
       content="assets/favicon/browserconfig.xml"
     />
     <meta name="theme-color" content="#ffffff" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Ivan Guryanov</title>
   </head>
   <body>
     <div class="selfie">
-      <img src="./assets/img/selfie.gif" alt="Ivan is doing selfie" />
+      <img src="./assets/img/selfie-short.gif" alt="Ivan is doing selfie" />
     </div>
     <div class="reading">
-      <img src="./assets/img/sitting.gif" alt="Ivan is learning" />
+      <img src="./assets/img/sitting-short.gif" alt="Ivan is learning" />
     </div>
 
     <div class="wrapper">
-      <section class="main">
-        <span class="greeting">Hello, my name is</span>
-        <span class="name">Ivan Guryanov</span>
+      <div class="container">
+        <div class="greeting">
+          <span>Hello, my name is</span>
+          <span>Ivan Guryanov</span>
+        </div>
 
-        <span class="goals">
-          <span class="selection">I do my best</span> to make the Internet and
-          myself better -</span
-        >
-        <span class="occupation">I am a front end feveloper</span>
-      </section>
-      <section class="links">
-        <form action="https://github.com/guryanov-junior" target="blank">
-          <button>
-            <img
-              src="./assets/icons/github.png"
-              alt="Go to GitHub"
-              title="Go to GitHub"
-            />
-          </button>
-        </form>
-        <form action="https://twitter.com/nukaktaktoblia" target="blank">
-          <button>
-            <img
-              src="./assets/icons/twitter.png"
-              alt="Go to Twitter"
-              title="Go to Twitter"
-            />
-          </button>
-        </form>
-        <form
-          action="https://www.instagram.com/gurjanov_junior/"
-          target="blank"
-        >
-          <button>
-            <img
-              src="./assets/icons/instagram.png"
-              alt="Go to Instagram"
-              title="Go to Instagram"
-            />
-          </button>
-        </form>
-        <form
-          action="https://www.linkedin.com/in/ваня-гурьянов-59725421b"
-          target="blank"
-        >
-          <button>
-            <img
-              src="./assets/icons/linkedin.png"
-              alt="Go to LinkedIn"
-              title="Go to LinkedIn"
-            />
-          </button>
-        </form>
-      </section>
+        <div class="goals">
+          <span>I have no time to waste</span>
+          <span>I do my best to make the Internet better</span>
+          <span>I am a front end feveloper</span>
+        </div>
+
+        <div class="links">
+          <form action="https://github.com/guryanov-junior" target="blank">
+            <button>
+              <img
+                src="./assets/icons/github.png"
+                alt="Go to GitHub"
+                title="Go to GitHub"
+              />
+            </button>
+          </form>
+          <form action="https://twitter.com/nukaktaktoblia" target="blank">
+            <button>
+              <img
+                src="./assets/icons/twitter.png"
+                alt="Go to Twitter"
+                title="Go to Twitter"
+              />
+            </button>
+          </form>
+          <form
+            action="https://www.instagram.com/gurjanov_junior/"
+            target="blank"
+          >
+            <button>
+              <img
+                src="./assets/icons/instagram.png"
+                alt="Go to Instagram"
+                title="Go to Instagram"
+              />
+            </button>
+          </form>
+          <form
+            action="https://www.linkedin.com/in/ваня-гурьянов-59725421b"
+            target="blank"
+          >
+            <button>
+              <img
+                src="./assets/icons/linkedin.png"
+                alt="Go to LinkedIn"
+                title="Go to LinkedIn"
+              />
+            </button>
+          </form>
+        </div>
+      </div>
+
       <footer>
         <div class="references">
-          <div class="icons">
+          <span>
             Icons by <a href="https://icons8.ru/" target="blank">Icons8</a>
-          </div>
+          </span>
 
-          <div class="doodles">
+          <span>
             Illustrations by
             <a href="https://www.opendoodles.com/" target="blank"
               >Open Doodles</a
             >
-          </div>
+          </span>
         </div>
 
-        <div class="fullname">Ivan Guryanov &copy;</div>
+        <span class="copyright">Ivan Guryanov &copy;</span>
       </footer>
     </div>
   </body>
